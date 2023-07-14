@@ -1,0 +1,134 @@
+/* sports */
+.see-more-games-btn {
+  width: 200px;
+  padding: 5px 10px;
+  /* background: rgba(255, 255, 255, 0.1); */
+  background-color: transparent;
+  border-radius: 50px ;
+  text-align: center;
+  border: 1px solid #000;
+  margin: auto;
+}
+
+.see-more-games-btn:hover{
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.sport-card {
+  background:rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+
+  font-size: 14px;
+}
+
+#sport-card {
+  /* height: 300px; */
+    /* background-color: #97D9E1;
+  background-image: linear-gradient(315deg, #97dae1a9 0%, #d9afd9a8 100%); */
+
+  background-color: #ffffff;
+  
+  /* background-image: linear-gradient(45deg, #fbfbbc 0%, #f9d5de 100%); */
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+#top-sport-heading {
+  background: #0575e6;
+  height: 120px;
+  padding: 10px 0 0 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#top-sport-heading img{
+  height: 40px;
+  width: 80px;
+  display: inline;
+}
+
+#top-sport-heading a {
+  display: inline;
+}
+
+#top-sport-heading span{
+  vertical-align: middle;
+  display: inline;
+}
+
+
+#sports-c {
+  margin: 20px auto;
+  
+
+}
+
+#sport-navbar .grid{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  color: #fff;
+  box-shadow: 0 3px 4px gray;
+}
+
+#sport-navbar button{
+  padding: 10px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#sport-navbar button:hover {
+  background-color: rgba(6, 98, 189, 0.8);
+  /* border-bottom: 3px solid #fff; */
+  cursor: pointer;
+}
+
+#sport-navbar button.active {
+  border-bottom: 3px solid #fff;
+  background-color: rgba(6, 98, 189, 0.8);
+}
+
+/* CSS for tab-content and game grid layout */
+#tab-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* gap: 10px; */
+  overflow:auto;
+  
+  
+}
+
+@media only screen and (max-width: 768px) {
+  #tab-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+.game {
+  border: 1px solid #ccc;
+  padding: 20px;
+  height: 150px;
+  
+  /* margin-bottom: 10px; */
+}
+
+.team {
+  font-weight: 600;
+}
+
+.time {
+  color: #999;
+}
+.game span {
+  font-size: 10px;
+}
+.pseudo-footer {
+  padding: 20px;
+  border: 1px solid #ccc;
+  font-style: italic;
+}
+
+.see-more-games-btn {
+  cursor: pointer;
+}
